@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet" />
+    <script src="/js/index.js" defer></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+
+    <section>
+        <div>
+            <form action="" >
+                <fieldset id="fildsetPersonal">
+                    <legend>Personal Registration</legend>
+                    <label for="name">
+                      Name
+                      <input type="text" id="name" name="name" />
+                    </label>
+                    <br/>
+                    <label for="age">
+                      Age
+                      <br/><input type="number" id="age" name="age" />
+                    </label>
+                    <br />
+                    <label for="email">
+                      Email
+                      <input type="email" id="email" name="email" />
+                    </label>
+                    <br/>
+                    <div class="row">
+                        <input type="button" id="submit" value="Save"/>
+                      </div>
+                  </fieldset>
+                  <h4 type="hidden" id="message"></h4>
+                  <input type="hidden" id="flag" value="n">
+            </form>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
