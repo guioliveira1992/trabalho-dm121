@@ -121,7 +121,7 @@ let addRow = () => {
                     buttonEdit.setAttribute('type', 'button');
                     buttonEdit.setAttribute('value', '    ');
                     buttonEdit.style.backgroundColor = "darkgoldenrod"
-                    buttonEdit.style.backgroundImage = "url('/img/pencil.svg')"
+                    buttonEdit.style.backgroundImage = "url('img/pencil.svg')"
 
                     // add button's "onclick" event.
                     buttonEdit.setAttribute('onclick', 'editRow(this)');
@@ -135,7 +135,7 @@ let addRow = () => {
                     buttonRemove.setAttribute('value', '    ');
                     buttonRemove.style.backgroundColor = "red"
 
-                    buttonRemove.style.backgroundImage = "url('/img/trash.svg')"
+                    buttonRemove.style.backgroundImage = "url('img/trash.svg')"
 
                     // add button's "onclick" event.
                     buttonRemove.setAttribute('onclick', 'removeRow(this)');
